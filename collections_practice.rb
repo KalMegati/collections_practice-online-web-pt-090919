@@ -25,5 +25,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  kesharray = array.each { |string| string[2] = "$" }
+  array.each { |string| string[2] = "$" }
 end
