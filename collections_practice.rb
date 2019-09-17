@@ -35,3 +35,4 @@ end
 def sum_array(array)
   sum = 0
   sum += array.each { |additive| additive }
+end
