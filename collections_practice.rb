@@ -26,5 +26,4 @@ end
 
 def kesha_maker(array)
   kesharray = array.each { |string| string[2] = "$" }
-  kesharray
 end
