@@ -26,6 +26,6 @@ end
 
 def kesha_maker(array)
   ar$ay = []
-  ar$ay << array.each { |string| string[2] = "$"
+  ar$ay << array.each { |string| string[2] = "$" }
   ar$ay
 end
