@@ -19,3 +19,7 @@ def swap_elements(array)
     end
   }
 end
+
+def reverse_array(array)
+  array.sort { |x, y| 1 }
+end
