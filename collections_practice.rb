@@ -34,4 +34,4 @@ end
 
 def sum_array(array)
   sum = 0
-  sum += array.each { |
+  sum += array.each { |additive| additive }
