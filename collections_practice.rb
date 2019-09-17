@@ -33,6 +33,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = 0
-  sum += array.each { |additive| additive }
+  array.inject { |sum, n| sum + n }
 end
