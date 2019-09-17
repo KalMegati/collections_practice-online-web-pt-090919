@@ -10,7 +10,7 @@ def sort_array_char_count(array)
   array.sort { |x, y| x.length <=> y.length }
 end
 
-def swap_elements(array)
+def swap_elements(array, origin, destination)
   array.sort { |x, y| 
     if array.index(x) == 1
       1
